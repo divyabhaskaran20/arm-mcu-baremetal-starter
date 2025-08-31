@@ -12,11 +12,11 @@ Minimal bare-metal ARM Cortex-M template for learning and starting MCU projects.
 
 ## Directory Structure
 
-├── custom_linker.ld   # Linker script: controls memory layout (Flash, RAM, stack, etc.
-├── main.c             # Your main application code
-└── startup.s          # Assembly startup (vector table, low-level reset handler)
-└── Makefiles          # BUild System
-└── build              # Output Ditectory(.elf, .s, .lst etc)
+- custom_linker.ld   # Linker script: controls memory layout (Flash, RAM, stack, etc.
+- main.c             # Your main application code
+- startup.s          # Assembly startup (vector table, low-level reset handler)
+- Makefiles          # BUild System
+- build              # Output Ditectory(.elf, .s, .lst etc)
 
 
 ## Build Instructions
